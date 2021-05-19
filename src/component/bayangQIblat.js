@@ -57,8 +57,7 @@ function ConvertDMSToDD(degrees, minutes, seconds, direction) {
   return dd;
 }
 
-// var deg=bayangQiblat
-var lat=10
+
 function ConvertDEGToDMS(deg) {
   var absolute = Math.abs(deg);
   
