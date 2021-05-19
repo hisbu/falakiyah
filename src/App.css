@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.tw-80{
+  width: 80px;
+  
+}
+
+.mr-10{
+  margin-right: 10px;
+}
+
+.kotak{
+  border: 1px solid green;
+}
+
+.isian{
+  margin-top: 20px;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  /* border-color: gray; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hasil{
+  margin-top: 20px;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  /* border-color: gray; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-size: 40px;
+  background-color: greenyellow;
+  font-weight: bold;
+  color: rgb(3, 90, 0);
+}
+
+.btlt{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tombol{
+  display: flex;
+  justify-content: center;
+}
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 70%;
+  padding: 20px;
+  border-radius: 10px;
+  /* border-color: gray; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.center{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuApps{
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px 0px;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px ;
+  background-color: greenyellow;
+  transition: 0.3s;
+}
+
+.menuApps:hover{
+  background-color: chartreuse;
+  color: white;
+  font-weight: bold;
+}
+
+.gohome{
+  text-align: center;
+  margin-top: 20px;
+}
+.gohome img{
+  width: 3%;
+  transition: 0.3s;
+}
+
+.gohome img:hover{
+  width: 4%;
+}
+
+.codeby{
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+}
